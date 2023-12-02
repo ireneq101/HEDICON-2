@@ -62,7 +62,7 @@ nav a {
     font-size: 24px;
 }
 
-.home {
+.services {
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
     font-size: 23px;
@@ -97,47 +97,360 @@ section {
     background-image: url(Hero.png);
     display: flex;
     justify-content: center;
-    gap: 13%;
+    height: 85vh;
 }
 
-section > .section22 {
-    width: 45%;
-    padding: 13% 0;
-    margin: 0 4%;
-}
-
-section > .section22 h1 {
-    color: var(--Pry, #005C4D);
-    font-family: "Playfair Display";
+section h1 {
+    justify-content: center;
+    text-align: center;
+    margin: 20% auto;
+    color: var(--White, #FFF);
+    font-family: 'Playfair Display';
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 16px;
 }
 
-section > .section22 p {
-    color: var(--Black, #171717);
+main {
+    width: 100%;
+    margin: 7% 0;
+}
+
+main h2 {
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+
+main > .oops {
+    width: 50%;
+    margin: 0 27.5%;
+}
+
+main > .oops p {
+    color: var(--Grey, #4B4B4B);
+    text-align: center;
     font-family: 'Playfair Display';
     font-size: 24px;
+    font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    padding-bottom: 24px;
+    width: 90%;
 }
 
-section > .section22 button {
-    padding: 12px 40px;
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
-section > .div1 {
+.section2 > .image1 {
     width: 45%;
-    margin: 0 2%;
 }
 
-section > .div1 img {
-    width: 85%;
+.section2 > .image1 img {
+    width: 70%;
+    margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
     border-top-left-radius: 35%;
-    padding: 15% 0;
+}
+
+.medical {
+    width: 35%;
+    justify-content: center;
+    align-content: center;
+}
+
+.medical h5 {
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.medical p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 90%;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 32px; */
+    padding: 40px 0;
+    margin-bottom: 40px;
+    background: var(--Light-grey, #FAFAFA);
+}
+
+.section3 > .image2 {
+    width: 45%;
+    margin-right: 8%;
+}
+
+.section3 > .image2 img {
+    width: 70%;
+    margin-left: 20%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 35%;
+}
+
+.section3 > .health {
+    width: 35%;
+    margin-left: 15%;
+    /* padding-left: 16%; */
+    justify-content: center;
+    align-content: center;
+}
+
+.section3 > .health h5{
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section3 > .health p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 80%;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.section4 > .image3 {
+    width: 45%;
+}
+
+.section4 > .image3 img {
+    width: 70%;
+    margin-left: 20%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-left-radius: 35%;
+}
+
+.section4 > .mach {
+    width: 35%;
+    /* padding-left: 26%; */
+    justify-content: center;
+    align-content: center;
+}
+
+.section4 > .mach h5{
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section4 > .mach p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 85%;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    background: var(--Light-grey, #FAFAFA);
+}
+
+.section5 > .image4 {
+    width: 45%;
+    margin-right: 8%;
+}
+
+.section5 > .image4 img {
+    width: 70%;
+    margin-left: 20%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 35%;
+}
+
+.section5 > .tele {
+    width: 35%;
+    margin-left: 15%;
+    justify-content: center;
+    align-content: center;
+}
+
+.section5 > .tele h5{
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section5 > .tele p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 85%;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.section6 > .image5 {
+    width: 45%;
+}
+
+.section6 > .image5 img {
+    width: 70%;
+    margin-left: 20%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-left-radius: 35%;
+}
+
+.section6 > .manage {
+    width: 35%;
+    /* padding-left: 26%; */
+    justify-content: center;
+    align-content: center;
+}
+
+.section6 > .manage h5{
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section6 > .manage p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 85%;
+}
+
+.section7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    background: var(--Light-grey, #FAFAFA);
+}
+
+.section7 > .image6 {
+    width: 45%;
+    margin-right: 8%;
+}
+
+.section7 > .image6 img {
+    width: 70%;
+    margin-left: 20%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 35%;
+}
+
+.section7 > .info {
+    width: 35%;
+    margin-left: 15%;
+    justify-content: center;
+    align-content: center;
+}
+
+.section7 > .info h5{
+    color: var(--Pry, #005C4D);
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section7 > .info p {
+    color: var(--Grey, #4B4B4B);
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 85%;
+}
+
+footer {
+    background-color: var(--Pry, #005C4D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer > .icons {
+    width: 10%;
+    background-color: var(--Sec, #DCE9E2);
+}
+
+footer > .icons img {
+    width: 20%;
 }
