@@ -31,7 +31,7 @@ header, head {
 .left {
     display: flex;
     width: 40%;
-    margin: 2% 4%;
+    margin: 2% 5%;
 }
 
 .left img {
@@ -53,28 +53,30 @@ nav {
 
 
 nav a {
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     padding: 2%;
     color: var(--Mid-grey, #AFAFAF);
     font-style: normal;
     font-weight: 600;
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .services {
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 23px;
+    font-size: 150%;
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
 }
 
 button {
-    padding: 12px 40px;
+    padding: 12px 30px;
     font-style: normal;
-    font-size: 22px;
+    font-size: 150%;
     border-radius: 100px;
     background: var(--Pry, #005C4D);
     color: white;
@@ -97,7 +99,7 @@ section {
     background-image: url(Hero.png);
     display: flex;
     justify-content: center;
-    height: 85vh;
+    height: 87vh;
 }
 
 section h1 {
@@ -112,12 +114,12 @@ section h1 {
     line-height: normal;
 }
 
-main {
+.main {
     width: 100%;
     margin: 7% 0;
 }
 
-main h2 {
+.main h2 {
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
     text-align: center;
@@ -128,12 +130,12 @@ main h2 {
     padding-bottom: 32px;
 }
 
-main > .oops {
+.main > .oops {
     width: 50%;
     margin: 0 27.5%;
 }
 
-main > .oops p {
+.main > .oops p {
     color: var(--Grey, #4B4B4B);
     text-align: center;
     font-family: 'Playfair Display';
@@ -444,13 +446,42 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white;
+    padding: 40px 0;
+    margin-top: 13%;
 }
 
 footer > .icons {
-    width: 10%;
-    background-color: var(--Sec, #DCE9E2);
+    gap: 60px;
 }
 
-footer > .icons img {
-    width: 20%;
+footer > .icons svg {
+    width: 40px;
+    height: 40px;
+    gap: 40px;
+    border: 2px solid white;
+    border-radius: 90%;
+    border-width: 300ms;
+    background-color: var(--Sec, #DCE9E2);
+    color: white;
+    transition: transform 300ms;
+    margin: 25px 0;
+}
+
+footer > .icons:hover {
+    border-width: 1px;
+}
+
+footer > .icons:hover img {
+    transform: scale(1.4);
+}
+
+footer > .p {
+    color: var(--Ter, #F8FCFB);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
 }
