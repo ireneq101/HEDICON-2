@@ -18,7 +18,7 @@ header {
 }
 
 
-header, head {
+header > div {
     display: flex;
     gap: 10%;
     /* justify-content: space-between; */
@@ -28,20 +28,20 @@ header, head {
 
 
 
-.left {
+header > div .left {
     display: flex;
     width: 40%;
     margin: 2% 5%;
 }
 
-.left img {
+header > div .left img {
     width: 30%;
 }
 
 
-.head > img {
+/* .head > img {
     display: none;
-}
+} */
 
 
 
@@ -74,7 +74,7 @@ nav a {
 }
 
 button {
-    padding: 12px 30px;
+    padding: 0.75rem 1.875rem;
     font-style: normal;
     font-size: 150%;
     border-radius: 100px;
@@ -97,9 +97,12 @@ button {
 
 section {
     background-image: url(Hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
-    height: 87vh;
+    width: 100%;
+    /* height: 87vh; */
 }
 
 section h1 {
@@ -108,7 +111,7 @@ section h1 {
     margin: 20% auto;
     color: var(--White, #FFF);
     font-family: 'Playfair Display';
-    font-size: 56px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -123,7 +126,7 @@ section h1 {
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
     text-align: center;
-    font-size: 44px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -139,7 +142,7 @@ section h1 {
     color: var(--Grey, #4B4B4B);
     text-align: center;
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.68rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -160,7 +163,7 @@ section h1 {
 }
 
 .section2 > .image1 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -176,7 +179,7 @@ section h1 {
 .medical h5 {
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -186,7 +189,7 @@ section h1 {
 .medical p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -209,7 +212,7 @@ section h1 {
 }
 
 .section3 > .image2 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -227,7 +230,7 @@ section h1 {
 .section3 > .health h5{
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -237,11 +240,11 @@ section h1 {
 .section3 > .health p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    max-width: 80%;
+    max-width: 84%;
 }
 
 .section4 {
@@ -258,7 +261,7 @@ section h1 {
 }
 
 .section4 > .image3 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -275,7 +278,7 @@ section h1 {
 .section4 > .mach h5{
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -285,7 +288,7 @@ section h1 {
 .section4 > .mach p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -308,7 +311,7 @@ section h1 {
 }
 
 .section5 > .image4 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -325,7 +328,7 @@ section h1 {
 .section5 > .tele h5{
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -335,7 +338,7 @@ section h1 {
 .section5 > .tele p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -356,7 +359,7 @@ section h1 {
 }
 
 .section6 > .image5 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -373,7 +376,7 @@ section h1 {
 .section6 > .manage h5{
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -383,7 +386,7 @@ section h1 {
 .section6 > .manage p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -406,7 +409,7 @@ section h1 {
 }
 
 .section7 > .image6 img {
-    width: 70%;
+    width: 30rem;
     margin-left: 20%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
@@ -423,7 +426,7 @@ section h1 {
 .section7 > .info h5{
     color: var(--Pry, #005C4D);
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -433,7 +436,7 @@ section h1 {
 .section7 > .info p {
     color: var(--Grey, #4B4B4B);
     font-family: 'Playfair Display';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -457,10 +460,10 @@ footer > .icons {
 
 footer > .icons svg {
     width: 40px;
-    height: 40px;
+    height: 36px;
     gap: 40px;
-    border: 2px solid white;
-    border-radius: 90%;
+    border: 2px solid  #DCE9E2;
+    border-radius: 100%;
     border-width: 300ms;
     background-color: var(--Sec, #DCE9E2);
     color: white;
@@ -468,13 +471,13 @@ footer > .icons svg {
     margin: 25px 0;
 }
 
-footer > .icons:hover {
+/* footer > .icons:hover {
     border-width: 1px;
 }
 
 footer > .icons:hover img {
     transform: scale(1.4);
-}
+} */
 
 footer > .p {
     color: var(--Ter, #F8FCFB);
